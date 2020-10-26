@@ -1,28 +1,50 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1 class="title">Copy Connect</h1>
+    <span class="subtitle">
+      The shameless rip-off of BBC's Only Connect
+    </span>
+    <QuestionContainer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import QuestionContainer from "./components/QuestionContainer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
+  data() {
+    return {};
+  },
   components: {
-    HelloWorld
-  }
-}
+    QuestionContainer,
+  },
+};
 </script>
 
 <style>
+* {
+  box-sizing: border-box;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica, Arial, sans-serif;
+  touch-action: manipulation;
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-size: 80%;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  line-height: 1.5;
+  margin-top: 0.25rem;
+  margin-bottom: 0.4rem;
 }
 </style>

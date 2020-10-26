@@ -1,0 +1,233 @@
+{
+  "questions_round01": [
+    {
+      "questionId": 2,
+      "answer": "___bock",
+      "firstClue": "Stein",
+      "clues": [
+        {
+          "clueId": 2,
+          "content": "Huren"
+        },
+        {
+          "clueId": 3,
+          "content": "Holz"
+        },
+        {
+          "clueId": 4,
+          "content": "Ramm"
+        }
+      ]
+    },
+    {
+      "questionId": 3,
+      "answer": "Dinge, die man brechen kann",
+      "firstClue": "Herzen",
+      "clues": [
+        {
+          "clueId": 2,
+          "content": "Fasten"
+        },
+        {
+          "clueId": 3,
+          "content": "Siegel"
+        },
+        {
+          "clueId": 4,
+          "content": "Knochen"
+        }
+      ]
+    },
+    {
+      "questionId": 4,
+      "answer": "Leber___",
+      "firstClue": "Käse",
+      "clues": [
+        {
+          "clueId": 2,
+          "content": "Wurst"
+        },
+        {
+          "clueId": 3,
+          "content": "Knödel"
+        },
+        {
+          "clueId": 4,
+          "content": "Zirrhose"
+        }
+      ]
+    },
+    {
+      "questionId": 5,
+      "answer": "Abkürzungen für die Europäische Zentralbank",
+      "firstClue": "EKB",
+      "clues": [
+        {
+          "clueId": 2,
+          "content": "BCE"
+        },
+        {
+          "clueId": 3,
+          "content": "ECB"
+        },
+        {
+          "clueId": 4,
+          "content": "EZB"
+        }
+      ]
+    },
+    {
+      "questionId": 6,
+      "answer": "Sorten von Pfeffer",
+      "firstClue": "Grün",
+      "clues": [
+        {
+          "clueId": 2,
+          "content": "Schwarz"
+        },
+        {
+          "clueId": 3,
+          "content": "Weiß"
+        },
+        {
+          "clueId": 4,
+          "content": "Rosa"
+        }
+      ]
+    },
+    {
+      "questionId": 7,
+      "answer": "Kfz-Kennzeichen = Abkürzung im Periodensystem",
+      "firstClue": "Schwerin = Zinn",
+      "clues": [
+        {
+          "clueId": 2,
+          "content": "Hochtaunuskreis (Homburg) = Quecksilber"
+        },
+        {
+          "clueId": 3,
+          "content": "Saarbrücken = Antimon"
+        },
+        {
+          "clueId": 4,
+          "content": "Erzgebirgskreis (Aue) = Gold"
+        }
+      ]
+    },
+    {
+      "questionId": 1,
+      "picture": true,
+      "answer": "Niedersachsen",
+      "firstClue": "img/rathaus_hannover.jpg",
+      "clues": [
+        {
+          "clueId": 2,
+          "content": "img/braunkohl_bregenwurst.jpg"
+        },
+        {
+          "clueId": 3,
+          "content": "img/gerhard_schroeder.jpg"
+        },
+        {
+          "clueId": 4,
+          "content": "img/wappen_niedersachsen.gif"
+        }
+      ]
+    },
+    {
+      "questionId": 8,
+      "answer": "___furt",
+      "firstClue": "Klagen",
+      "clues": [
+        {
+          "clueId": 2,
+          "content": "Schwein"
+        },
+        {
+          "clueId": 3,
+          "content": "Er"
+        },
+        {
+          "clueId": 4,
+          "content": "Frank"
+        }
+      ]
+    },
+    {
+      "questionId": 9,
+      "answer": "Daltons",
+      "firstClue": "Joe",
+      "clues": [
+        {
+          "clueId": 2,
+          "content": "Jack"
+        },
+        {
+          "clueId": 3,
+          "content": "William"
+        },
+        {
+          "clueId": 4,
+          "content": "Averell"
+        }
+      ]
+    },
+    {
+      "questionId": 10,
+      "answer": "Heiz___",
+      "firstClue": "Körper",
+      "clues": [
+        {
+          "clueId": 2,
+          "content": "Pilz"
+        },
+        {
+          "clueId": 3,
+          "content": "Spirale"
+        },
+        {
+          "clueId": 4,
+          "content": "Öl"
+        }
+      ]
+    },
+    {
+      "questionId": 11,
+      "answer": "Name der Währung auf Deutsch",
+      "firstClue": "Japan: Runder Gegenstand",
+      "clues": [
+        {
+          "clueId": 2,
+          "content": "Polen: Der Goldene"
+        },
+        {
+          "clueId": 3,
+          "content": "Mexiko: Gewicht"
+        },
+        {
+          "clueId": 4,
+          "content": "Dänemark: Krone"
+        }
+      ]
+    },
+    {
+      "questionId": 12,
+      "answer": "Dinge mit Flügeln",
+      "firstClue": "Nase",
+      "clues": [
+        {
+          "clueId": 2,
+          "content": "Partei"
+        },
+        {
+          "clueId": 3,
+          "content": "Weißes Haus"
+        },
+        {
+          "clueId": 4,
+          "content": "Pegasus"
+        }
+      ]
+    }
+  ]
+}
