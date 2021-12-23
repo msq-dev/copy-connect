@@ -17,6 +17,7 @@ module.exports = {
     "vue/attribute-hyphenation": ["error", "never"],
     "quotes": ["error", "double"],
     "indent": ["error", 2],
+    "semi": ["error", "never"]
   },
 }
 
