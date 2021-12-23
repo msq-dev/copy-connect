@@ -11,9 +11,7 @@
         gegeneinander, die abwechselnd versuchen, die Rätsel zu lösen. Je
         weniger Clues sie sich zeigen lassen, desto mehr Punkte erhalten sie (5
         Punkte nach dem ersten, nach dem zweiten 3, nach dem dritten 2 und 1
-        Punkt bei vier aufgedeckten Clues)<sup
-          ><a href="#footnote01">[1]</a></sup
-        >. Voraussetzung dafür ist, dass sie vor Ablauf von 40 Sekunden ihren
+        Punkt bei vier aufgedeckten Clues)<sup><a href="#footnote01">[1]</a></sup>. Voraussetzung dafür ist, dass sie vor Ablauf von 40 Sekunden ihren
         Buzzer betätigen. Gelingt ihnen das nicht oder stellen sie eine
         inkorrekte Verbindung her, hat das gegnerische Team die Möglichkeit,
         einen Bonuspunkt erringen; dafür werden noch verbleibende Clues
@@ -21,9 +19,7 @@
       </p>
       <p>
         Die Verbindungen können absolut jeglicher Natur sein, "thematisch,
-        linguistisch, sachlich, mathematisch etc."<sup
-          ><a href="#footnote02">[2]</a></sup
-        >, abrupte Wechsel zwischen Politik, Wissenschaft, Populär- und
+        linguistisch, sachlich, mathematisch etc."<sup><a href="#footnote02">[2]</a></sup>, abrupte Wechsel zwischen Politik, Wissenschaft, Populär- und
         Hochkultur sind die Regel. Ein Beispiel aus der englischsprachigen
         Wikipedia:
       </p>
@@ -31,7 +27,7 @@
         src="@/assets/img/Only_Connect_Round_1.png"
         alt="Vier aufgedeckte Clues, von links nach rechts: 'A hammer and a feather', 'Six US flags', 'Eugene Shoemakers ashes', 'Two golf balls'. Die gesuchte Verbindung ist 'Items left on the Moon'."
         srcset=""
-      />
+      >
       <p>
         Diese App war erster Linie ein Projekt, den Umgang mit Vue.js zu
         erlernen, seine Anfänge liegen im legendären ersten Lockdown 2020. Meine
@@ -48,42 +44,52 @@
       <p>Weiterführende Links:</p>
       <ul>
         <li>
-          <a href="https://en.m.wikipedia.org/wiki/Only_Connect"
-            >Artikel in der englischsprachigen Wikipedia</a
-          >
+          <a
+            href="https://en.m.wikipedia.org/wiki/Only_Connect"
+          >Artikel in der englischsprachigen Wikipedia</a>
         </li>
         <li>
-          <a href="https://www.youtube.com/c/wheelsongenius"
-            >Enorme Sammlung vollständiger Episoden von Youtube-User
-            <i>wheelsongenius</i></a
-          >
+          <a
+            href="https://www.youtube.com/c/wheelsongenius"
+          >Enorme Sammlung vollständiger Episoden von Youtube-User
+            <i>wheelsongenius</i></a>
         </li>
         <li>
-          <a href="https://ocdb.cc/"
-            >OCDB, eine fan-geführte Datenbank mit gesammelten Fragen aus 264
-            Episoden<br>(Stand: 19.12.21)</a
-          >
+          <a
+            href="https://ocdb.cc/"
+          >OCDB, eine fan-geführte Datenbank mit gesammelten Fragen aus 264
+            Episoden<br>(Stand: 19.12.21)</a>
         </li>
         <li>
-          <a href="https://github.com/msq-dev/copy-connect"
-            ><IconGithub class="icon-github" :size="15" />
+          <a
+            href="https://github.com/msq-dev/copy-connect"
+          ><IconGithub
+             class="icon-github"
+             :size="15"
+           />
             <i>Copy Connect</i> Code
           </a>
         </li>
       </ul>
       <div class="footnotes">
         <ol>
-          <li id="footnote01" class="ftn">
+          <li
+            id="footnote01"
+            class="ftn"
+          >
             Diese Regel und <i>Copy Connect</i> stellen nur die erste von vier
             Runden dar, in der zweiten beispielsweise bilden die Clues eine
             Abfolge und die Teams sind aufgefordert, das vierte Element selbst
             zu erschließen.
           </li>
-          <li id="footnote02" class="ftn">
+          <li
+            id="footnote02"
+            class="ftn"
+          >
             nach
-            <a href="https://en.m.wikipedia.org/wiki/Only_Connect"
-              >https://en.m.wikipedia.org/wiki/Only_Connect</a
-            >, abgerufen am 19.12.21
+            <a
+              href="https://en.m.wikipedia.org/wiki/Only_Connect"
+            >https://en.m.wikipedia.org/wiki/Only_Connect</a>, abgerufen am 19.12.21
           </li>
         </ol>
       </div>

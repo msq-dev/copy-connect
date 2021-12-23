@@ -2,21 +2,33 @@
   <div class="settings">
     <h1>Einstellungen</h1>
     <div class="settings-container">
-      <div class="form-label">Schwierigkeitsgrad:</div>
+      <div class="form-label">
+        Schwierigkeitsgrad:
+      </div>
       <div
         v-for="[key, value] in Object.entries(options)"
         :key="key"
         class="form-control"
       >
-        <input type="radio" :id="key" :value="value" v-model="timer" />
+        <input
+          :id="key"
+          v-model="timer"
+          type="radio"
+          :value="value"
+        >
         <label :for="key">
-          <span>{{ key.split(":")[0] }}:</span
-          ><span>{{ key.split(":")[1] }}</span>
+          <span>{{ key.split(":")[0] }}:</span><span>{{ key.split(":")[1] }}</span>
         </label>
       </div>
     </div>
-    <router-link @click.native="saveSettings" to="/game">
-      <IconPlay :size="50" :widthStroke="1" />
+    <router-link
+      to="/game"
+      @click.native="saveSettings"
+    >
+      <IconPlay
+        :size="50"
+        :widthStroke="1"
+      />
     </router-link>
   </div>
 </template>

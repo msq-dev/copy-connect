@@ -1,5 +1,8 @@
 <template>
-  <div class="timer" :style="styles"></div>
+  <div
+    class="timer"
+    :style="styles"
+  />
 </template>
 
 <script>

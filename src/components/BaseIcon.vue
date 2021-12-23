@@ -10,7 +10,7 @@
     stroke-linecap="round"
     stroke-linejoin="round"
   >
-    <slot></slot>
+    <slot />
   </svg>
 </template>
 

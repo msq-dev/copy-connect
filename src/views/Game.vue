@@ -13,17 +13,17 @@
       <ClueCard
         v-for="(clue, index) in currentClues"
         :key="clue"
+        :ref="'clue' + index"
         :clue="clue"
         :index="index"
         :isNext="index === lastFlippedClue + 1"
         :timer="timer"
         :timerRunning="timerRunning"
-        :ref="'clue' + index"
         @flipped="handleFlip"
       />
     </div>
     <div
-      v-if="answerProposed && this.lastFlippedClue === 3"
+      v-if="answerProposed && lastFlippedClue === 3"
       class="answer-container"
       :class="{ answer: answerShown }"
       @click="answerShown = true"
@@ -35,7 +35,7 @@
       v-if="timerRunning"
       class="btn-buzzer"
       @click="handleBuzzer"
-    ></button>
+    />
 
     <button
       v-if="showProposalBtn"
@@ -65,6 +65,19 @@ export default {
     ClueCard,
     BarTimer,
   },
+  data() {
+    return {
+      currentQuestion: 0,
+      currentClues: [],
+      currentAnswer: "",
+      lastFlippedClue: -1,
+      buzzerHit: false,
+      answerProposed: false,
+      answerShown: false,
+      timeRemaining: 0,
+      timerRunning: false,
+    }
+  },
   computed: {
     questions() {
       return this.$store.state.questions
@@ -92,18 +105,8 @@ export default {
       }
     },
   },
-  data() {
-    return {
-      currentQuestion: 0,
-      currentClues: [],
-      currentAnswer: "",
-      lastFlippedClue: -1,
-      buzzerHit: false,
-      answerProposed: false,
-      answerShown: false,
-      timeRemaining: 0,
-      timerRunning: false,
-    }
+  mounted() {
+    this.$store.dispatch("getData")
   },
   methods: {
     setupQuestion() {
@@ -175,9 +178,6 @@ export default {
       }
       this.setupQuestion()
     },
-  },
-  mounted() {
-    this.$store.dispatch("getData")
   },
 }
 </script>

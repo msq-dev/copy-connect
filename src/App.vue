@@ -1,10 +1,13 @@
 <template>
   <div id="app">
     <nav v-if="$route.name !== 'Home'">
-      <router-link to="/"
-        ><span class="arrow-back">&#10142;</span>Startseite</router-link
+      <router-link to="/">
+        <span class="arrow-back">&#10142;</span>Startseite
+      </router-link>
+      <router-link
+        v-if="$route.name !== 'Einstellungen'"
+        to="/settings"
       >
-      <router-link v-if="$route.name !== 'Einstellungen'" to="/settings">
         <IconSettings :size="18" />
       </router-link>
     </nav>

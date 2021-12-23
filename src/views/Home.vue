@@ -1,17 +1,36 @@
 <template>
   <div class="home">
-    <h1 class="title">Copy Connect</h1>
-    <div class="subtitle">The shameless rip-off of BBC's Only Connect</div>
+    <h1 class="title">
+      Copy Connect
+    </h1>
+    <div class="subtitle">
+      The shameless rip-off of BBC's Only Connect
+    </div>
     <div class="game-links">
-      <router-link to="/game"
-        ><IconPlay :size="sizeIcon" :widthStroke="1"
-      /></router-link>
-      <router-link to="/rules"
-        ><IconRules :size="sizeIcon" :widthStroke="1"
-      /></router-link>
-      <router-link to="/settings"
-        ><IconSettings :size="sizeIcon" :widthStroke="1"
-      /></router-link>
+      <router-link
+        to="/game"
+      >
+        <IconPlay
+          :size="sizeIcon"
+          :widthStroke="1"
+        />
+      </router-link>
+      <router-link
+        to="/rules"
+      >
+        <IconRules
+          :size="sizeIcon"
+          :widthStroke="1"
+        />
+      </router-link>
+      <router-link
+        to="/settings"
+      >
+        <IconSettings
+          :size="sizeIcon"
+          :widthStroke="1"
+        />
+      </router-link>
     </div>
   </div>
 </template>

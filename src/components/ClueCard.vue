@@ -4,30 +4,31 @@
     :class="{ 'is-flipped': flipped }"
     @click="flipClueCard"
   >
-    <div class="clue-card-front" :class="{ forbidden: isForbidden }">
+    <div
+      class="clue-card-front"
+      :class="{ forbidden: isForbidden }"
+    >
       Clue {{ index + 1 }}
     </div>
     <div
       v-if="pictureClue"
       class="clue-card-back"
       :style="pictureClueStyles"
-    ></div>
-    <div v-else class="clue-card-back">{{ clue }}</div>
+    />
+    <div
+      v-else
+      class="clue-card-back"
+    >
+      {{ clue }}
+    </div>
   </div>
 </template>
 
 <script>
-const IMG_FILE_EXTENSIONS = ["jpg", "jpeg", "png", "gif"]
 const IMG_URL = process.env.VUE_APP_PICTURE_CLUES
 
 export default {
   name: "ClueCard",
-  data() {
-    return {
-      flipped: false,
-      isForbidden: false,
-    }
-  },
   props: {
     isNext: Boolean,
     index: Number,
@@ -35,11 +36,17 @@ export default {
     timer: Number,
     timerRunning: Boolean,
   },
+  data() {
+    return {
+      flipped: false,
+      isForbidden: false,
+    }
+  },
   computed: {
     pictureClue() {
       const splitFileName = this.clue.split(".")
       const fileExtension = splitFileName[splitFileName.length - 1]
-      return IMG_FILE_EXTENSIONS.includes(fileExtension)
+      return /jpe?g|png|gif/gm.test(fileExtension)
     },
     pictureClueStyles() {
       return {
